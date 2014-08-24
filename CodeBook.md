@@ -4,9 +4,9 @@ Codebook
 *What the subject was doing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 *[2] "subjectID"
 *Subject identifier.
-*[3] "BodyAccelerationMeanX"                                
+*[3] "BodyAccelerationMeanX"
 *Mean X coordinate Mean Acceleration
-*[4] "BodyAccelerationMeanY"                                
+*[4] "BodyAccelerationMeanY"
 *Mean Y coordinate Mean Acceleration
 *[5] "BodyAccelerationMeanZ"                                
 *Mean Z coordinate Mean Acceleration
