@@ -1,9 +1,9 @@
 Codebook
 
-[1] "activity"                                             
-What the subject was doing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-[2] "subjectID"
-Subject identifier.
+*[1] "activity"                                             
+*What the subject was doing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+*[2] "subjectID"
+*Subject identifier.
 [3] "BodyAccelerationMeanX"                                
 Mean X coordinate Mean Acceleration
 [4] "BodyAccelerationMeanY"                                
