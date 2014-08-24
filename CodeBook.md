@@ -1,6 +1,6 @@
 Codebook
 
-*[1] "activity"                                             
+*[1] "activity"
 *What the subject was doing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 *[2] "subjectID"
 *Subject identifier.
