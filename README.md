@@ -25,11 +25,18 @@ The R files contains routines that perform the following and are annotated (by n
 
 #1 Merges the training and the test sets to create one data set.
 #2 Extracts only the measurements on the mean and standard deviation for each
+        ## merge together the information found in mulitple files
+        ##      (subject, activity, collected data)
 #  measurement.
 #3 Uses descriptive activity names to name the activities in the data set
+replaceactivityidwithlabels - Merge in the textual description of activities and then remove id
 #4 Appropriately labels the data set with descriptive variable names.
-#5 Creates a second, independent tidy data set with the average of each
-#  variable for each activity and each subject.
+Improve names of dataframe.  Input datatframe that is the combination of the testing and training data
+Out: Datatframe with abbreviations expanded to longer (more meaningful names), and puncuation 
+characters removed.
+#5 Creates a second, independent tidy data set with the average of each variable for each 
+activity and each subject. Uses aggregate (mean) and write.table
+
 
 Data provided:
 =========================================
