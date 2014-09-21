@@ -1,164 +1,104 @@
 Codebook
 
-[1] "activity"                                             
-What the subject was doing (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-[2] "subjectID"
-Subject identifier.
-[3] "BodyAccelerationMeanX"                                
-Mean X coordinate Mean Acceleration
-[4] "BodyAccelerationMeanY"                                
-Mean Y coordinate Mean Acceleration
-[5] "BodyAccelerationMeanZ"                                
-Mean Z coordinate Mean Acceleration
-[6] "BodyAccelerationStandardDeviationX"                   
-Mean X Body Acceleration Standard Deviation
-[7] "BodyAccelerationStandardDeviationY"                   
-Mean Y BodyAccelerationStandardDeviation
-[8] "BodyAccelerationStandardDeviationZ"                   
-Mean Z BodyAccelerationStandardDeviation
-[9] "GravityAccelerationMeanX"                             
-Mean X Gravity Acceleration Mean
-[10] "GravityAccelerationMeanY"                             
-Mean Y Gravity Acceleration Mean
-[11] "GravityAccelerationMeanZ"                             
-Mean Gravity Acceleration Mean
-[12] "GravityAccelerationStandardDeviationX"                
-Mean X GravityAccelerationStandardDeviation
-[13] "GravityAccelerationStandardDeviationY"                
-Mean Y Gravity Acceleration Standard Deviation
-[14] "GravityAccelerationStandardDeviationZ"                
-Mean Z Gravity Acceleration Standard Deviation
-[15] "BodyAccelerationJerkMeanX"                            
-Mean X Body Acceleration Jerk Mean
-[16] "BodyAccelerationJerkMeanY"                            
-Mean Y Body Acceleration Jerk Mean
-[17] "BodyAccelerationJerkMeanZ"                            
-Mean Z Body Acceleration Jerk Mean
-[18] "BodyAccelerationJerkStandardDeviationX"               
-Mean Body Acceleration Jerk Standard Deviation
-[19] "BodyAccelerationJerkStandardDeviationY"               
-Mean Y Body Acceleration Jerk Standard Deviation
-[20] "BodyAccelerationJerkStandardDeviationZ"               
-Mean Z Body Acceleration Jerk Standard Deviation
-[21] "BodyGyroscopeMeanX"                                   
-Mean X Body Gyroscope Mean
-[22] "BodyGyroscopeMeanY"                                   
-Mean Y Body Gyroscope Mean
-[23] "BodyGyroscopeMeanZ"                                   
-Mean Z Body Gyroscope Mean
-[24] "BodyGyroscopeStandardDeviationX"                      
-Mean X BodyGyroscopeStandardDeviationX
-[25] "BodyGyroscopeStandardDeviationY"                      
-Mean Y Body Gyroscope Standard Deviation
-[26] "BodyGyroscopeStandardDeviationZ"                      
-Mean Z Body Gyroscope Standard Deviation
-[27] "BodyGyroscopeJerkMeanX"                               
-Mean X Body Gyroscope Jerk Mean
-[28] "BodyGyroscopeJerkMeanY"                               
-Mean Y Body Gyroscope Jerk Mean
-[29] "BodyGyroscopeJerkMeanZ"                               
-Mean Z Body Gyroscope Jerk Mean
-[30] "BodyGyroscopeJerkStandardDeviationX"                  
-Mean X Body Gyroscope Jerk Standard Deviation
-[31] "BodyGyroscopeJerkStandardDeviationY"                  
-Mean Y Body Gyroscope Jerk Standard Deviation
-[32] "BodyGyroscopeJerkStandardDeviationZ"                  
-Mean Z Body Gyroscope Jerk Standard Deviation
-[33] "BodyAccelerationMagnitudeMean"                        
-Mean Body Acceleration Magnitude Mean
-[34] "BodyAccelerationMagnitudeStandardDeviation"           
-Mean Body Acceleration Magnitude Standard Deviation
-[35] "GravityAccelerationMagnitudeMean"                     
-Mean Gravity Acceleration Magnitude Mean
-[36] "GravityAccelerationMagnitudeStandardDeviation"        
-Mean Gravity Acceleration Magnitude Standard Deviation
-[37] "BodyAccelerationJerkMagnitudeMean"                    
-Mean Body Acceleration Jerk Magnitude Mean
-[38] "BodyAccelerationJerkMagnitudeStandardDeviation"       
-Mean Body Acceleration Jerk Magnitude Standard Deviation
-[39] "BodyGyroscopeMagnitudeMean"                           
-Mean Body Gyroscope Magnitude Mean
-[40] "BodyGyroscopeMagnitudeStandardDeviation"              
-Mean Body Gyroscope Magnitude Standard Deviation
-[41] "BodyGyroscopeJerkMagnitudeMean"                       
-Mean Body Gyroscope Jerk Magnitude Mean
-[42] "BodyGyroscopeJerkMagnitudeStandardDeviation"          
-Mean Body Gyroscope Jerk Magnitude Standard Deviation
-[43] "FFTBodyAccelerationMeanX"                             
-Mean X FFT Body Acceleration Mean
-[44] "FFTBodyAccelerationMeanY"  
-Mean Y FFT Body Acceleration Mean                           
-[45] "FFTBodyAccelerationMeanZ"                             
-Mean Z FFT Body Acceleration Mean
-[46] "FFTBodyAccelerationStandardDeviationX"                
-Mean X FFT Body Acceleration StandardDeviation
-[47] "FFTBodyAccelerationStandardDeviationY"                
-Mean Y FFT Body Acceleration StandardDeviation
-[48] "FFTBodyAccelerationStandardDeviationZ"                
-Mean Z FFT Body Acceleration StandardDeviation
-[49] "FFTBodyAccelerationMeanFrequencyX"                    
-Mean X FFT Body Acceleration Mean Frequency
-[50] "FFTBodyAccelerationMeanFrequencyY"                    
-Mean Y FFT Body Acceleration Mean Frequency
-[51] "FFTBodyAccelerationMeanFrequencyZ"                    
-Mean Z FFT Body Acceleration Mean Frequency
-[52] "FFTBodyAccelerationJerkMeanX"                         
-Mean X FFT Body Acceleration Jerk Mean
-[53] "FFTBodyAccelerationJerkMeanY"
-Mean Y FFT Body Acceleration Jerk Mean
-[54] "FFTBodyAccelerationJerkMeanZ"                         
-Mean Z FFTBodyAccelerationJerkMean
-[55] "FFTBodyAccelerationJerkStandardDeviationX"            
-Mean X FFT Body Acceleration Jerk Standard Deviation
-[56] "FFTBodyAccelerationJerkStandardDeviationY"            
-Mean Y FFT Body Acceleration Jerk Standard Deviation
-[57] "FFTBodyAccelerationJerkStandardDeviationZ"            
-Mean Z FFT Body Acceleration Jerk Standard Deviation
-[58] "FFTBodyAccelerationJerkMeanFrequencyX"                
-Mean X FFT Body Acceleration Jerk Mean Frequency
-[59] "FFTBodyAccelerationJerkMeanFrequencyY"                
-Mean Y FFT Body Acceleration Jerk Mean Frequency
-[60] "FFTBodyAccelerationJerkMeanFrequencyZ"                
-Mean Z FFT Body Acceleration Jerk Mean Frequency
-[61] "FFTBodyGyroscopeMeanX"                                
-Mean X FFTBodyGyroscopeMean
-[62] "FFTBodyGyroscopeMeanY"                                
-Mean Y FFTBodyGyroscopeMean
-[63] "FFTBodyGyroscopeMeanZ"                                
-Mean FFTBody Gyroscope Mean
-[64] "FFTBodyGyroscopeStandardDeviationX"                   
-Mean X FFT Body Gyroscope Standard Deviation
-[65] "FFTBodyGyroscopeStandardDeviationY"                   
-Mean Y FFT Body Gyroscope Standard Deviation
-[66] "FFTBodyGyroscopeStandardDeviationZ"                   
-Mean Z FFT Body Gyroscope Standard Deviation
-[67] "FFTBodyGyroscopeMeanFrequencyX"                       
-Mean X FFT Body Gyroscope Mean Frequency
-[68] "FFTBodyGyroscopeMeanFrequencyY"                       
-Mean Y FFT Body Gyroscope Mean Frequency
-[69] "FFTBodyGyroscopeMeanFrequencyZ"                       
-Mean Z FFT Body Gyroscope Mean Frequency
-[70] "FFTBodyAccelerationMagnitudeMean"                     
-Mean FFT Body Acceleration Magnitude Mean
-[71] "FFTBodyAccelerationMagnitudeStandardDeviation"        
-Mean FFT Body Acceleration Magnitude Standard Deviation
-[72] "FFTBodyAccelerationMagnitudeMeanFrequency"            
-Mean FFT Body Acceleration Magnitude Mean Frequency
-[73] "FFTBodyBodyAccelerationJerkMagnitudeMean"             
-Mean FFT Body Body Acceleration Jerk Magnitude Mean
-[74] "FFTBodyBodyAccelerationJerkMagnitudeStandardDeviation"
-Mean FFT Body Body Acceleration Jerk Magnitude Standard Deviation
-[75] "FFTBodyBodyAccelerationJerkMagnitudeMeanFrequency"    
-Mean FFT Body Body Acceleration Jerk Magnitude Mean Frequency
-[76] "FFTBodyBodyGyroscopeMagnitudeMean"
-Mean FFT Body Body Gyroscope Magnitude Mean                    
-[77] "FFTBodyBodyGyroscopeMagnitudeStandardDeviation"       
-Mean FFT Body Body Gyroscope Magnitude Standard Deviation
-[78] "FFTBodyBodyGyroscopeMagnitudeMeanFrequency"           
-Mean FFT Body Body Gyroscope Magnitude Mean Frequency
-[79] "FFTBodyBodyGyroscopeJerkMagnitudeMean"                
-Mean FFT Body Body Gyroscope Jerk Magnitude Mean
-[80] "FFTBodyBodyGyroscopeJerkMagnitudeStandardDeviation"   
-Mean FFT Body Body Gyroscope Jerk Magnitude Standard Deviation
-[81] "FFTBodyBodyGyroscopeJerkMagnitudeMeanFrequency" 
-Mean FFT Body Body Gyroscope Jerk Magnitude Mean Frequency
+From the original documenation (in the zip file)
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals . Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm . 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
+ 
+These signals were used to estimate variables of the feature vector for each pattern.
+
+Here are the steps that were followed to create the output data set.
+
+1    Merged the training and the test sets to create one data set.
+2    Extracted the measurements on the mean and standard deviation for each measurement. 
+3    Used descriptive activity names to name the activities in the data set
+4    Provided descriptive variable names. 
+5    Created a second, independent tidy data set with the average of each variable for each activity and  subject.  This was done by taking the average of the sample data provided.
+
+The following is the transformed data.  Rows 3 - 81 are normalized and bounded within [-1,1].
+
+
+* [1] "activity" - String indicating the activity that the subject was undertaking: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and, "LAYING".
+* [2] "subjectID" - Integer subject identifier (There are 30 subjects. i.e. 1 represents person 1).  
+* [3] "BodyAccelerationMeanX" - mean of volunteer's body motion acceleration along the x-axis.
+* [4] "BodyAccelerationMeanY" - mean of volunteer's body motion acceleration along the y-axis.
+* [5] "BodyAccelerationMeanZ" - mean of volunteer's body motion acceleration along the z-axis.
+* [6] "BodyAccelerationStandardDeviationX" - standard deviation of volunteer's body acceleration along the x-axis.
+* [7] "BodyAccelerationStandardDeviationY" - standard deviation of volunteer's body acceleration along the y-axis
+* [8] "BodyAccelerationStandardDeviationZ" - standard deviation of volunteer's body acceleration along the z-axis
+* [9] "GravityAccelerationMeanX" - mean of acceleration due to gravity, along the x-axis.
+* [10] "GravityAccelerationMeanY" - mean of acceleration due to gravity, along the y-axis.
+* [11] "GravityAccelerationMeanZ" - mean of acceleration due to gravity, along the z-axis.
+* [12] "GravityAccelerationStandardDeviationX" - standard deviation of movement along the x-axis, due to gravity.
+* [13] "GravityAccelerationStandardDeviationY" - standard deviation of movement along the y-axis, due to gravity.
+* [14] "GravityAccelerationStandardDeviationZ" - standard deviation of movement along the z-axis, due to gravity.
+* [15] "BodyAccelerationJerkMeanX" - mean volunteer's body Jerk (change in body linear acceleration and angular velocity) along the x-axis.
+* [16] "BodyAccelerationJerkMeanY" - mean volunteer's body Jerk (change in body linear acceleration and angular velocity) along the y-axis.
+* [17] "BodyAccelerationJerkMeanZ" - mean volunteer's body Jerk (change in body linear acceleration and angular velocity) along the z-axis.
+* [18] "BodyAccelerationJerkStandardDeviationX" - standard deviation of volunteer's body Jerk (change in body linear acceleration and angular velocity) along the x-axis.
+* [19] "BodyAccelerationJerkStandardDeviationY" - standard deviation of volunteer's body Jerk (change in body linear acceleration and angular velocity) along the y-axis.
+* [20] "BodyAccelerationJerkStandardDeviationZ" - standard deviation of volunteer's body Jerk (change in body linear acceleration and angular velocity) along the z-axis.
+* [21] "BodyGyroscopeMeanX" - mean gyroscopically measured of the volunteer's body in the x direction.
+* [22] "BodyGyroscopeMeanY" - mean gyroscopically measured of the volunteer's body in the y direction.
+* [23] "BodyGyroscopeMeanZ" - mean gyroscopically measured of the volunteer's body in the z direction.
+* [24] "BodyGyroscopeStandardDeviationX" - standard deviation of gyroscopically measured movement of the volunteer's body in the x direction.
+* [25] "BodyGyroscopeStandardDeviationY" - standard deviation of gyroscopically measured movementof the volunteer's body in the y direction.
+* [26] "BodyGyroscopeStandardDeviationZ" - standard deviation of gyroscopically measured movement of the volunteer's body in the z direction.
+* [27] "BodyGyroscopeJerkMeanX"  - mean volunteer's body gyroscopically measured Jerk (change in body linear acceleration and angular velocity) along the x-axis.
+* [28] "BodyGyroscopeJerkMeanY" - mean volunteer's body gyroscopically measured Jerk (change in body linear acceleration and angular velocity) along the y-axis.
+* [29] "BodyGyroscopeJerkMeanZ" - mean volunteer's body gyroscopically measured Jerk (change in body linear acceleration and angular velocity) along the z-axis.
+* [30] "BodyGyroscopeJerkStandardDeviationX"  - standard deviation of volunteer's body gyroscopically measured Jerk (change in body linear acceleration and angular velocity) along the x-axis.
+ [31] "BodyGyroscopeJerkStandardDeviationY" - standard deviation of volunteer's body gyroscopically measured Jerk (change in body linear acceleration and angular velocity) along the y-axis.
+* [32] "BodyGyroscopeJerkStandardDeviationZ" - standard deviation of volunteer's body gyroscopically measured Jerk (change in body linear acceleration and angular velocity) along the z-axis.
+* [33] "BodyAccelerationMagnitudeMean" - mean magnitude (calculated using three axis data) of volunteer's body acceleration.
+* [34] "BodyAccelerationMagnitudeStandardDeviation" - standard deviation of magnitude (calculated using three axis data) of volunteer's body acceleration.
+* [35] "GravityAccelerationMagnitudeMean" - mean magnitude (calculated using three axis data) of acceleration due to Gravity.
+* [36] "GravityAccelerationMagnitudeStandardDeviation" - standard deviation of magnitude of acceleration due to gravity.
+* [37] "BodyAccelerationJerkMagnitudeMean" - mean magnitude (calculated using three axis data) of volunteer's body Jerk (change in body linear acceleration and angular velocity).
+* [38] "BodyAccelerationJerkMagnitudeStandardDeviation" - standard deviation of magnitude (calculated using three axis data) of volunteer's body acceleration Jerk (change in body linear acceleration and angular velocity).
+* [39] "BodyGyroscopeMagnitudeMean" - mean magnitude (calculated using three axis data) of volunteer's body orientation measured with a gyroscope.
+* [40] "BodyGyroscopeMagnitudeStandardDeviation" - standard deviation of magnitude of volunteer's body orientation measured with a Gyroscope (calculated using three axis data).
+* [41] "BodyGyroscopeJerkMagnitudeMean" - mean magnitude (calculated using three axis data) of volunteer's body orientation measured with a Gyroscope Jerk (acceleration rate of change).
+* [42] "BodyGyroscopeJerkMagnitudeStandardDeviation" - standard deviation of volunteer's body orientation measured with a Gyroscope Jerk (acceleration rate of change).
+* [43] "FFTBodyAccelerationMeanX" - mean x-axis volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [44] "FFTBodyAccelerationMeanY" - mean y-axis volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [45] "FFTBodyAccelerationMeanZ" - mean z-axis volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [46] "FFTBodyAccelerationStandardDeviationX" - standard deviation x-axis volunteer's body acceleration  with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [47] "FFTBodyAccelerationStandardDeviationY" - standard deviation y-axis volunteer's body acceleration  with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [48] "FFTBodyAccelerationStandardDeviationZ" - standard deviation z-axis volunteer's body acceleration  with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [49] "FFTBodyAccelerationMeanFrequencyX" - x-axis mean frequency volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [50] "FFTBodyAccelerationMeanFrequencyY" - y-axis mean frequency volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [51] "FFTBodyAccelerationMeanFrequencyZ" - z-axis mean frequency volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [52] "FFTBodyAccelerationJerkMeanX" - mean Jerk (change in body linear acceleration and angular velocity) on x-axis of volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [53] "FFTBodyAccelerationJerkMeanY" - mean Jerk (change in body linear acceleration and angular velocity) on y-axis of volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [54] "FFTBodyAccelerationJerkMeanZ" - mean Jerk (change in body linear acceleration and angular velocity) on z-axis of volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [55] "FFTBodyAccelerationJerkStandardDeviationX" - standard deviation of Jerk (change in body linear acceleration and angular velocity) on x-axis of volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [56] "FFTBodyAccelerationJerkStandardDeviationY" - standard deviation of Jerk (change in body linear acceleration and angular velocity) on y-axis of volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [57] "FFTBodyAccelerationJerkStandardDeviationZ" - standard deviation of Jerk (change in body linear acceleration and angular velocity) on z-axis of volunteer's body acceleration with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [58] "FFTBodyAccelerationJerkMeanFrequencyX" - mean x-axis frequency of volunteer's body Jerk (change in body linear acceleration and angular velocity) with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [59] "FFTBodyAccelerationJerkMeanFrequencyY" - mean y-axis frequency of volunteer's body Jerk (change in body linear acceleration and angular velocity) with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [60] "FFTBodyAccelerationJerkMeanFrequencyZ" - FFT of of mean z-axis frequency volunteer's body Jerk (change in body linear acceleration and angular velocity) with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [61] "FFTBodyGyroscopeMeanX" - mean x-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [62] "FFTBodyGyroscopeMeanY" - mean y-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [63] "FFTBodyGyroscopeMeanZ" - mean z-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [64] "FFTBodyGyroscopeStandardDeviationX" - standard deviation of x-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [65] "FFTBodyGyroscopeStandardDeviationY" - standard deviation of y-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [66] "FFTBodyGyroscopeStandardDeviationZ" - standard deviation of z-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [67] "FFTBodyGyroscopeMeanFrequencyX" - mean frequency of x-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [68] "FFTBodyGyroscopeMeanFrequencyY" - mean frequency of y-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [69] "FFTBodyGyroscopeMeanFrequencyZ" - mean frequency of z-axis volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [70] "FFTBodyAccelerationMagnitudeMean" - mean magnitude of volunteer's body orientation with frequency domain signals obtained by calculating with FFT on the time domain signal (calculated using three axis data).
+* [71] "FFTBodyAccelerationMagnitudeStandardDeviation" - standard deviation of magnitude of acceleration of volunteer's body - with frequency domain signals obtained by calculating with FFT on the time domain signal (calculated using three axis data).
+* [72] "FFTBodyAccelerationMagnitudeMeanFrequency" - mean frequency (weighted average of the frequency components) of acceleration of volunteer's body with frequency domain signals obtained by calculating with FFT on the time domain signal (calculated using three axis data).
+* [73] "FFTBodyBodyAccelerationJerkMagnitudeMean" - mean magnitude of volunteer's body acceleration Jerk (change in body linear acceleration and angular velocity) (os three axis data).
+* [74] "FFTBodyBodyAccelerationJerkMagnitudeStandardDeviation" - standard deviation of mean volunteer's body acceleration Jerk (change in body linear acceleration and angular velocity) magnitude (calculated using three axis data).
+* [75] "FFTBodyBodyAccelerationJerkMagnitudeMeanFrequency" - mean frquency ( weighted average of the frequency components, producing a mean) body acceleration Jerk (change in body linear acceleration and angular velocity) magnitude (calculated using three axis data).
+* [76] "FFTBodyBodyGyroscopeMagnitudeMean" - mean magnitude (in three axes) of volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [77] "FFTBodyBodyGyroscopeMagnitudeStandardDeviation" - mean standard deviation of magnitude (in three axes) of volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [78] "FFTBodyBodyGyroscopeMagnitudeMeanFrequency" - mean frequency of magnitude (in three axes) of volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [79] "FFTBodyBodyGyroscopeJerkMagnitudeMean" - mean magnitude (in three axes) of Jerk (change in body linear acceleration and angular velocity) of volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [80] "FFTBodyBodyGyroscopeJerkMagnitudeStandardDeviation" - standard deviation of magnitude (in three axes) of Jerk (change in body linear acceleration and angular velocity) of volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
+* [81] "FFTBodyBodyGyroscopeJerkMagnitudeMeanFrequency" - mean magnitude of frequency (in three axes) of Jerk (change in body linear acceleration and angular velocity) of volunteer's body orientation measured with a gyroscope - with frequency domain signals obtained by calculating with FFT on the time domain signal.
