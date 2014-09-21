@@ -21,6 +21,20 @@ where 70% of the volunteers was selected for generating the training data and 30
 This output here is recombined into one data set and then averaged by subject and activity
 
 In order to process the original data provided execute run_analysis.R.
+The R files contains routines that perform the following and are annotated (by numbers).
+
+#1 Merges the training and the test sets to create one data set.
+#2 Extracts only the measurements on the mean and standard deviation for each merge together the information found in mulitple files (subject, activity, collected data) measurement.
+buildframe - performs both of the above.
+#3 Uses descriptive activity names to name the activities in the data set.  
+replaceactivityidwithlabels - Merge in the textual description of activities and then remove id
+#4 Appropriately labels the data set with descriptive variable names.
+betternames - Improve names of dataframe.  Input datatframe that is the combination of the testing and training data
+Out: Dataframe with abbreviations expanded to longer (more meaningful names), and puncuation 
+characters removed.
+#5 Creates a second, independent tidy data set with the average of each variable for each 
+activity and each subject. Uses aggregate (mean) and write.table
+
 
 Data provided:
 =========================================
